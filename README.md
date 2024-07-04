@@ -1,33 +1,29 @@
-# Proyek Web-Scraping untuk Pengumpulan Data Kemahasiswaan
+Web Scraping Project for Student Data Collection
+Project Description
+This project aims to collect student-related data from the if.unila.ac.id website using web scraping techniques. Data extraction is performed using the Beautiful Soup 4 and Requests libraries in Python programming language.
 
-Proyek ini bertujuan untuk mengumpulkan data terkait kemahasiswaan dari situs web [if.unila.ac.id](https://if.unila.ac.id) menggunakan teknik web-scraping. Proses pengambilan data dilakukan dengan bantuan library Beautiful Soup 4 dan Request dalam bahasa pemrograman Python.
+Process Description
+The data retrieved consists of articles related to student affairs. Here are the main steps involved in this process:
 
-## Deskripsi Proses
+Data Collection: Data is extracted from the if.unila.ac.id website using web scraping techniques.
 
-Data yang diambil merupakan artikel-artikel yang berkaitan dengan kemahasiswaan. Berikut adalah langkah-langkah utama yang dilakukan dalam proses ini:
+Data Preprocessing: The data then undergoes preprocessing to clean up HTML markup, special characters, and remove duplicates and empty entries.
 
-1. **Pengumpulan Data**: Data diambil dari situs [if.unila.ac.id](https://if.unila.ac.id) dengan menggunakan teknik web-scraping.
+Data Storage: The processed data is stored in JSON format for ease of use and further analysis.
 
-2. **Preprocessing Data**: Data kemudian melalui proses preprocessing untuk membersihkan dari markup HTML, karakter khusus, serta menghilangkan duplikasi dan entri data yang kosong.
+Usage
+To use this project, ensure you have Python and the Beautiful Soup 4 and Requests libraries installed in your development environment. Then, follow these steps:
 
-3. **Penyimpanan Data**: Data yang telah diproses disimpan dalam format JSON untuk kemudahan penggunaan dan analisis lebih lanjut.
+Clone Repository: Clone this repository to your local system.
 
-## Penggunaan
+Install Dependencies: Make sure to install the required libraries by running pip install -r requirements.txt.
 
-Untuk menggunakan proyek ini, pastikan Anda memiliki Python dan library Beautiful Soup 4 dan Request terpasang di lingkungan pengembangan Anda. Kemudian, ikuti langkah-langkah berikut:
+Run the Script: Execute the scrape_data.py script to initiate the web scraping process.
 
-1. **Clone Repository**: Clone repositori ini ke dalam sistem lokal Anda.
+Data Analysis: The collected data will be stored in JSON format within the project directory. You can analyze the data as per your requirements.
 
-2. **Instal Library**: Pastikan untuk menginstal library yang diperlukan dengan menjalankan perintah `pip install -r requirements.txt`.
+Contribution
+Contributions and improvement suggestions are welcome. Please create a pull request if you have ideas to enhance this project.
 
-3. **Jalankan Skrip**: Jalankan skrip `scrape_data.py` untuk memulai proses web-scraping.
-
-4. **Analisis Data**: Data yang telah dikumpulkan akan disimpan dalam format JSON di dalam direktori proyek. Anda dapat menganalisis data tersebut sesuai kebutuhan Anda.
-
-## Kontribusi
-
-Kontribusi dan saran perbaikan sangat dihargai. Silakan buat _pull request_ jika Anda memiliki ide untuk meningkatkan proyek ini.
-
-## Lisensi
-
-Proyek ini dilisensikan di bawah Lisensi MIT. Lihat file [LICENSE](LICENSE) untuk informasi lebih lanjut.
+License
+This project is licensed under the MIT License. See the LICENSE file for more information.
